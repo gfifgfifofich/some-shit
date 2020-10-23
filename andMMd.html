@@ -1,27 +1,9 @@
-<!DOCTYPE html>name: MMd
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-
-jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v2
-    - name: Build the site in the jekyll/builder container
-      run: |
-        docker run \
-        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <title>test of the shtit</title>
 <meta charset="utf-8"> 
-<link rel="stylesheet" type="text/css" href="https://yandex.ru/wow thats was realy cool">
+<link rel="stylesheet" type="text/css" href="https://some-shitgit.github.ioandMMd.html/">
 </head>
 <div style="color: #4c5866;">
 <h1>catalog 4</h1>
