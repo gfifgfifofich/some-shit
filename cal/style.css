@@ -2,18 +2,5 @@
 .div {
 	height: 144;
 	width: 256;	
-
-background-size: 600px 500px, 340px 280px, 255px 260px, 370px 250px;
-   background-position: 0 2px, 71px 63px, 3px 17px, 6px 180px;
-      animation-name:1;
-   animation-duration: 4;
-   animation-timing-function: "linear";
-   animation-iteration-count: "infinite";
 }
-   @keyframes
-{
-	from {background-position: 0 2px, 71px 63px, 3px 17px, 6px 180px;}
-	to{background-position: 29px 190px, 390px 600px, 129px 350px, 90px 700px;}
-}
-
 </style>
